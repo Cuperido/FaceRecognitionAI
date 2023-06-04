@@ -24,6 +24,7 @@ We randomly mixed the images and allocated 1500 of them for training purposes an
     <figcaption><i>Fig1. Kaggle Source Dataset: https://www.kaggle.com/datasets/ashwingupta3012/human-faces</i></figcaption>
 </figure>
 
+
 <figure>
     <img src="image/dataset2.jpg" alt="Dataset 2">
     <figcaption><i>Fig2. We classified proper images by gender and renamed them accordingly. The images were saved in the '/v1' folder.</i></figcaption>
@@ -92,6 +93,7 @@ Thanks to the smaller image size and faster calculations, the processing time fo
     <img src="image/dataset3.jpg" alt="Dataset 3">
     <figcaption><i>Fig3. We resized all images to 128x128 and changed the color mode to RGB. The images were saved in the '/v1m' folder.</i></figcaption>
 </figure>
+
 
 However, it doesn't be trained, and after a certain point, it kept showing `-nan`.
 Although we reduced the `rate` parameter and even manipulated all the parameters, it doesn't be trained at all.
@@ -224,6 +226,7 @@ We assumed that the following two additional tasks are necessary for achieving h
     <figcaption><i>Fig4. Current training images have noisy information, such as background or objects</i></figcaption>
 </figure>
 
+
 First, there is a lot of unnecessary information in the training images. 
 Since we are creating a model to distinguish faces, any information other than the face should not cause confusion. 
 For example, in the above image, there are plants next to the two women on the left. 
@@ -241,6 +244,7 @@ As submitted in the project proposal, the goal of this project was originally to
     <img src="image/training.gif" alt="Training Screen">
     <figcaption><i>Fig5. Without a GPU, adding another layer and training took too much time! 6 seconds * 1000 iterations = 6000 seconds!</i></figcaption>
 </figure>
+
 
 However, it was not easy to do so in the current structure and too slow.
 Up until now, it already took nearly 10~20 minutes to see the results after changing just single parameter. 
@@ -487,8 +491,6 @@ Epoch 50/50
 
 ## Trying to solve overfitting
 
-### 1. Adjusting the network and hyperparameters
-
 We decided to additionally adjust the network and hyperparameters.
 
 First of all, because the current learning data consisted of a mixture of the first unrefined dataset and the second dataset with only faces refined, the first dataset and the second dataset had a relatively large difference in accuracy.
@@ -568,8 +570,7 @@ Epoch 20/20
 </figure>
 
 
-
-### Using decay stepping, data augmentation, and weight regularizer
+## Using anti-overfitting techniques
 
 Through researching overfitting, we were able to discover several advanced techniques being used.
 We decided to try using options decay stepping, data augmentation, and weight regularizer.
