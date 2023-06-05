@@ -10,7 +10,9 @@ In cases where it was difficult to differentiate, the images were classified as 
 
 **Author: Young You (cuperido@uw.edu)**
 
-<iframe width="100%" src="https://www.youtube.com/embed/YGwQz9YDpTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Presentation Video:**
+
+[![Watch the video](https://img.youtube.com/vi/YGwQz9YDpTk/maxresdefault.jpg)](https://youtu.be/YGwQz9YDpTk)
 
 
 ## Preparing dataset
