@@ -360,6 +360,12 @@ As a result, we successfully reproduced similar loss and accuracy to the previou
 The loss value for the UWImg test was `0.6931`, while in TensorFlow, it was `0.6932`, which was almost identical.
 The accuracy appeared to be around `50%`, which was also almost identical to the first UWImg test.
 
+<figure>
+    <img src="image/result1.gif" alt="First test">
+    <figcaption><i>Fig7. The first TensorFlow test. Training was fast thanks to the GPU.</i></figcaption>
+</figure>
+
+
 ```shell
 - Evaluate the model.
 Epoch 1/20
@@ -375,7 +381,7 @@ Epoch 20/20
 
 <figure>
     <img src="image/plot1.jpg" alt="Plot 1">
-    <figcaption><i>Fig7. The first TensorFlow test graph appears almost identical to the first UWImg test.</i></figcaption>
+    <figcaption><i>Fig8. The first TensorFlow test graph appears almost identical to the first UWImg test.</i></figcaption>
 </figure>
 
 
@@ -440,7 +446,7 @@ Epoch 50/50
 
 <figure>
     <img src="image/plot2.jpg" alt="Plot 2">
-    <figcaption><i>Fig8. The first TensorFlow test graph appears almost identical to the first UWImg test.</i></figcaption>
+    <figcaption><i>Fig9. The first TensorFlow test graph appears almost identical to the first UWImg test.</i></figcaption>
 </figure>
 
 
@@ -486,7 +492,7 @@ Epoch 50/50
 
 <figure>
     <img src="image/plot3.jpg" alt="Plot 3">
-    <figcaption><i>Fig9. Even when applying the Adam optimizer, severe overfitting was observed..</i></figcaption>
+    <figcaption><i>Fig10. Even when applying the Adam optimizer, severe overfitting was observed..</i></figcaption>
 </figure>
 
 
@@ -567,7 +573,7 @@ Epoch 20/20
 
 <figure>
     <img src="image/plot4.jpg" alt="Plot 4">
-    <figcaption><i>Fig10. By adjusting the network, the overfitting was gradually being resolved.</i></figcaption>
+    <figcaption><i>Fig11. By adjusting the network, the overfitting was gradually being resolved.</i></figcaption>
 </figure>
 
 
@@ -662,7 +668,7 @@ Epoch 50/50
 
 <figure>
     <img src="image/plot5.jpg" alt="Plot 1">
-    <figcaption><i>Fig11. By applying various anti-overfitting techniques, overfitting was further resolved.</i></figcaption>
+    <figcaption><i>Fig12. By applying various anti-overfitting techniques, overfitting was further resolved.</i></figcaption>
 </figure>
 
 
