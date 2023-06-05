@@ -2,13 +2,15 @@
 
 ## Introduction
 
-This repository is for a project in the CSE455 Computer Vision course at the University of Washington. (It will be switched to a private repository soon)
+This repository is for the final project in the CSE455 Computer Vision course at the University of Washington.
 
 Through this project, we aim to enhance our code from lab5 to learn image patterns, enabling us to accurately recognize and classify the gender depicted in the images. 
 For the sake of simplicity in this assignment, we have only classified the images based on the binary biological sexes, male and female. 
 In cases where it was difficult to differentiate, the images were classified as the closest sex according to the experimenter's bias.
 
 **Author: Young You (cuperido@uw.edu)**
+
+<iframe width="100%" src="https://www.youtube.com/embed/YGwQz9YDpTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Preparing dataset
